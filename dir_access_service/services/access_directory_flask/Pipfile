@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flask-debugtoolbar = "==0.10.1"
+
+[packages]
+psycopg2-binary = "==2.7.7"
+Flask = "==1.0.2"
+Flask-RESTful = "==0.3.7"
+Flask-SQLAlchemy = "==2.3.2"
+Flask-Testing = "==0.7.1"
+requests = "*"
+pandas = "*"
+apscheduler = "*"
+werkzeug = "==0.14.1"
+coverage = "*"
+hypothesis = "*"
+cython = "*"
+flask-marshmallow = "*"
+flask-mail = "*"
+flask-debugtoolbar = "*"
+marshmallow-sqlalchemy = "*"
+flask-excel = "*"
+boto3 = "*"
+pymupdf = "*"
+
+[requires]
+python_version = "3.7"
